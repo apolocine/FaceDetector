@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.hmd</groupId>
+	<artifactId>FaceDetector</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>FaceDetector</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>opencv</artifactId>
+			<version>4.9.0-1.5.10</version>
+			<!-- Assurez-vous de spécifier la version
+			appropriée -->
+		</dependency>
+
+
+		<!--		<dependency>-->
+		<!--			<groupId>com.google.zxing</groupId>-->
+		<!--			<artifactId>core</artifactId>-->
+		<!--			<version>3.5.3</version>  Mettez à jour la version si nécessaire -->
+		<!--		</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!--			<plugin>-->
+			<!--				<groupId>org.apache.maven.plugins</groupId>-->
+			<!--				<artifactId>maven-install-plugin</artifactId>-->
+			<!--				<version>3.1.1</version>-->
+			<!--				<executions> -->
+			<!--					<execution>-->
+			<!--						<phase>initialize</phase>-->
+			<!--						<goals>-->
+			<!--							<goal>install-file</goal>-->
+			<!--						</goals>-->
+			<!--						<configuration>-->
+			<!--							<file>lib/face.jar</file>-->
+			<!--							<groupId>org.hmd</groupId>-->
+			<!--							<artifactId>facedetector</artifactId>-->
+			<!--							<version>0.0.1</version>-->
+			<!--							<packaging>jar</packaging>-->
+			<!--						</configuration>-->
+			<!--					</execution>-->
+			<!--				</executions>-->
+			<!--			</plugin>-->
+
+
+		</plugins>
+
+	</build>
+</project>
