@@ -1,3 +1,3 @@
-@ execution of de programme
+@ execution du programme
 java -jar faces.jar
 pause 
